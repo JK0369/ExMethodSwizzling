@@ -13,6 +13,8 @@
 		C669F3EF27DF30CA00B07D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C669F3ED27DF30CA00B07D79 /* Main.storyboard */; };
 		C669F3F127DF30CB00B07D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C669F3F027DF30CB00B07D79 /* Assets.xcassets */; };
 		C669F3F427DF30CB00B07D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C669F3F227DF30CB00B07D79 /* LaunchScreen.storyboard */; };
+		C669F3FE27DF3ECA00B07D79 /* Swizzling+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669F3FD27DF3ECA00B07D79 /* Swizzling+UIViewController.swift */; };
+		C669F40027DF40F200B07D79 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C669F3FF27DF40F200B07D79 /* VC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C669F3F027DF30CB00B07D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C669F3F327DF30CB00B07D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C669F3F527DF30CB00B07D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C669F3FD27DF3ECA00B07D79 /* Swizzling+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swizzling+UIViewController.swift"; sourceTree = "<group>"; };
+		C669F3FF27DF40F200B07D79 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				C669F3E727DF30CA00B07D79 /* AppDelegate.swift */,
 				C669F3E927DF30CA00B07D79 /* SceneDelegate.swift */,
 				C669F3EB27DF30CA00B07D79 /* ViewController.swift */,
+				C669F3FD27DF3ECA00B07D79 /* Swizzling+UIViewController.swift */,
 				C669F3ED27DF30CA00B07D79 /* Main.storyboard */,
+				C669F3FF27DF40F200B07D79 /* VC2.swift */,
 				C669F3F027DF30CB00B07D79 /* Assets.xcassets */,
 				C669F3F227DF30CB00B07D79 /* LaunchScreen.storyboard */,
 				C669F3F527DF30CB00B07D79 /* Info.plist */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C669F3FE27DF3ECA00B07D79 /* Swizzling+UIViewController.swift in Sources */,
 				C669F3EC27DF30CA00B07D79 /* ViewController.swift in Sources */,
+				C669F40027DF40F200B07D79 /* VC2.swift in Sources */,
 				C669F3E827DF30CA00B07D79 /* AppDelegate.swift in Sources */,
 				C669F3EA27DF30CA00B07D79 /* SceneDelegate.swift in Sources */,
 			);
